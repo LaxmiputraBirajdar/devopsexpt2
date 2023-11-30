@@ -11,9 +11,11 @@ app.get('/', (req, res) => {
   // Send an HTML response
   res.send('<h1>Hello, Node.js!</h1>');
 });
+console.log("heee");
 
 // Start the server on port 3000
 const port = 3000;
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
+
 });
